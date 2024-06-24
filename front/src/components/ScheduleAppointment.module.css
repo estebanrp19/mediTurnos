@@ -1,0 +1,46 @@
+.container{
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.title{
+    margin-top: 50px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+}
+.card{
+    width: 265px;
+    padding: 20px 50px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #1565C0;
+    border-radius: 15px;
+    margin: 30px 30px;
+}
+.card p{
+    font-size: 28px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    color: #1565C0;
+    padding-bottom: 20px;
+}
+.card img{
+    filter: invert(26%) sepia(81%) saturate(599%) hue-rotate(180deg) brightness(92%) contrast(98%);
+    width: 80px;
+}
+
+.card:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #1565C0;
+    p{
+        color: #fff;
+    }
+    img{
+        filter: brightness(0) invert(1);
+    }
+}

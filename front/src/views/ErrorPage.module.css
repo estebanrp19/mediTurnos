@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #E3F2FD;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+.container .containerImg img {
+    width: 600px;
+    margin: 30px;
+}
+
+.container h1{
+    font-family: Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: #1565C0;
+    margin: 30px;
+}
